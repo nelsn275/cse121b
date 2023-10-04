@@ -16,7 +16,7 @@ let myProfile = {
 myProfile.placesLived.push(
     {
     place: 'Cornelius, Oregon',
-    length: '12 years'
+    length: '14 years'
     }
 );
 myProfile.placesLived.push(
