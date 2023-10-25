@@ -1,0 +1,63 @@
+body{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    background-color: rgb(134, 196, 134);
+    margin-top: 0;
+    line-height: 2em;
+    grid-column: 1/3;
+}
+h2{
+    grid-column: 1/2;
+    margin-left: 30px;
+}
+.inputs{
+    text-align: right;
+    margin-left: 30px;
+    grid-column: 1/2;
+}
+.inputs p{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    width: 100px;
+    text-align: left;
+}
+#profile{
+    text-align: center;
+    width: 800px;
+    position: relative;
+}
+#profile h2{
+    position: absolute;
+    right: 220px;
+    top: 5px;
+}
+#profile img{
+    position: absolute;
+    left: 280px;
+    bottom: 100px;
+}
+#profile ul{
+    text-align: left;
+    position: absolute;
+    left: 380px;
+    top: 150px;
+}
+#profile h3{
+position: absolute;
+left: 300px;
+top: 150px
+}
+#profile h4{
+    position: absolute;
+    right: 250px;
+    top: 50px;
+}
+.inputs button{
+    margin-top: 20px;
+    line-height: 2em;
+    width: 75px;
+}
